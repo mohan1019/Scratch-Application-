@@ -1,5 +1,6 @@
 {
-  "name": "Juspay-react",
+  "homepage": "https://mohan1019.github.io/my-react-assignment",
+  "name": "juspayreact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^4.0.0",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
   }
