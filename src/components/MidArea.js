@@ -5,8 +5,6 @@ import { Droppable, Draggable } from "react-beautiful-dnd";
 import { getComponent } from "./getComponents";
 import { createStyles, makeStyles, withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import AddIcon from "@material-ui/icons/Add";
-import PlayArrowIcon from "@material-ui/icons/PlayArrow";
 import { green } from "@material-ui/core/colors";
 import Paper from "@material-ui/core/Paper";
 

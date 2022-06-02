@@ -8,7 +8,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import { Button } from "@material-ui/core";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -24,7 +23,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function App({ complist, update_list }) {
-  const classes = useStyles();
 
   const onDragEnd = (result) => {
     let element = result.draggableId.split("-")[0];
